@@ -1,0 +1,347 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand img.logo-img {
+    width: 40px;
+    height: 40px;
+}
+
+.icon-img {
+    width: 20px;
+    height: 20px;
+}
+
+.sub-menu {
+    border-top: 1px solid #ccc;
+}
+
+.sub-menu .sub-menu-img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.sub-menu span {
+    font-size: 12px;
+    display: block;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: row;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .navbar-nav .nav-item {
+        flex: 0 0 auto;
+    }
+
+    .sub-menu .row {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .sub-menu .col-6 {
+        flex: 0 0 auto;
+    }
+}
+
+.nav-link:hover {
+    color: #0D55C2; /* Màu khi hover, bạn có thể thay đổi theo ý muốn */
+}
+.row a{
+	text-decoration: none;
+	color: rgba(29,28,30,1.00)
+}
+.row a:hover{
+	color: #0D55C2
+}
+.icon-img {
+    width: 20px;
+    height: 20px;
+}
+
+header.text-center {
+    margin-bottom: 20px;
+}
+
+header.text-center h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+
+.list-group-item {
+    border: none;
+    padding: 0.75rem 1.25rem;
+    font-size: 0.875rem;
+}
+
+.text-decoration-none {
+    color: #007bff;
+}
+
+.text-decoration-none:hover {
+    text-decoration: underline;
+}
+
+.text-center {
+    text-align: center !important;
+}
+.apple-watch-studio {
+    background-color: #f8f9fa;
+}
+
+.apple-watch-studio .container {
+    position: relative;
+}
+
+.apple-watch-studio .image-container {
+    position: relative;
+    width: 80%; /* 80% of the screen width */
+    margin: 0 auto; /* Center the container */
+}
+
+.apple-watch-studio .content {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%; /* Adjust the width as needed */
+}
+
+.apple-watch-studio .content h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.apple-watch-studio .content p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.apple-watch-studio .content .btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+
+.apple-watch-studio .content .btn-outline-success:hover {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.apple-watch-studio .img-fluid {
+    border-radius: 15px;
+}
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.made-for-each-other .container {
+    position: relative;
+}
+
+.made-for-each-other .content {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.made-for-each-other .content h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.made-for-each-other .content p {
+    margin-top: 0.5rem;
+}
+
+.made-for-each-other img.img-fluid {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+.footer {
+    background-color: #000; /* Nền đen */
+}
+
+.footer h5 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .text-center p {
+    margin-bottom: 0.5rem;
+}
+
+.footer .text-center
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    list-style: none;
+}
+
+.dropdown-item {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.nav-item.dropdown:hover > .nav-link {
+    background-color: #f8f9fa;
+}
+.contact-info h2 {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+}
+
+.contact-info .icon {
+    font-size: 1.5rem;
+    color: #f0ad4e;
+    margin-right: 0.5rem;
+}
+
+.contact-form h2 {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.contact-form .form-control {
+    margin-bottom: 1rem;
+}
+
+.contact-form .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
